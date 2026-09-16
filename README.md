@@ -8,7 +8,7 @@
 
 | 你的目标 | 建议入口 |
 |---|---|
-| 直接使用最新 Prompt | [09-AICoding场景驱动实战Prompt.md](./09-AICoding场景驱动实战Prompt.md) |
+| 直接使用最新 Prompt（含完整版与时间不足时精简版） | [09-AICoding场景驱动实战Prompt.md](./09-AICoding场景驱动实战Prompt.md) |
 | 理解每次修改背后的真实问题与推理 | [08-第三次真实AICoding笔试复盘与Prompt设计问答.md](./08-第三次真实AICoding笔试复盘与Prompt设计问答.md) |
 | 查看第三次笔试的原始经历记录 | [07-第三次真实AICoding笔试经历.md](./07-第三次真实AICoding笔试经历.md) |
 | 查看较早的方法和 Prompt | [历史版本](#历史版本) |
@@ -56,7 +56,7 @@ README + 首次最终反馈
 
 1. 准备 README、全部业务代码和平台提供的原测试脚本。
 2. 在开始实现前手动运行一次最终评测，复制全部已知业务场景。
-3. 按 [最新 Prompt 手册](./09-AICoding场景驱动实战Prompt.md) 依次使用 Prompt 1–3。
+3. 按 [最新 Prompt 手册](./09-AICoding场景驱动实战Prompt.md) 依次使用 Prompt 1–3；时间允许时使用完整版，时间紧张时只复制对应精简版，不需要同时发送两个版本。
 4. 每个 Task 使用一个实现会话，并在同一会话中把已规划测试加入原测试脚本。
 5. 手动运行测试，把真实命令和输出粘贴回对应会话；Agent 无法主动读取的结果不得预写为通过。
 6. 最终仍有复杂场景失败时，根据 Prompt 4 的路由表选择一个具体诊断模块，不要同时猜测多个规则并批量改代码。
@@ -69,7 +69,7 @@ README + 首次最终反馈
 |---|---|
 | [07-第三次真实AICoding笔试经历.md](./07-第三次真实AICoding笔试经历.md) | 第三次笔试的原始经历、测试脚本价值与方法修正起点 |
 | [08-第三次真实AICoding笔试复盘与Prompt设计问答.md](./08-第三次真实AICoding笔试复盘与Prompt设计问答.md) | 以问答形式保留经历、问题、根因判断和 Prompt 设计理由 |
-| [09-AICoding场景驱动实战Prompt.md](./09-AICoding场景驱动实战Prompt.md) | 可直接使用的 Prompt 1–3、结果记录 Prompt、Prompt 4A–4F 和使用辅助 |
+| [09-AICoding场景驱动实战Prompt.md](./09-AICoding场景驱动实战Prompt.md) | Prompt 1–3、结果记录 Prompt、Prompt 4A–4F 的完整版与对应精简版，以及使用辅助 |
 
 ### 历史版本
 
